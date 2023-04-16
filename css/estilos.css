@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFC3A1;
+    font-family: "calibri"
+}
+
+/**************ENCABEZADO*************/
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu{
+    
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+header{
+    /*background: url(/trabajo\ integrador/imagenes/header.jpeg) no-repeat;
+    opacity: 0.5;
+    background-size: cover;*/
+    background-color: #F0997D;
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav{
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 25px;
+    float: left;
+}
+
+.botonMenu{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    
+}
+
+nav ul li a{
+    color: #A75D5D;
+    
+}
+
+.paginapresentacion{
+    color: #ffffff;
+}
+
+/***************PIE DE PAGINA****************/
+
+.piedepagina{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+
+}
+
+
+/****************FORMULARIO*********************/
+
+.formulario{
+    width: 350px;
+    height: 250px;
+    background-color: #F0997D;
+    border-radius: 8px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+
+.contacto{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.nombreform{
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.emailform{
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.mensajeform{
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.botonform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********presentacion************/
+
+.presentacion{
+    width: 750px;
+    height: 300px;
+    margin-top: 5vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #F0997D;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafopresentacion{
+    margin-left: 10px;
+    margin-right: 10px;
+}
