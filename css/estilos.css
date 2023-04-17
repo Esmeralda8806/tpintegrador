@@ -82,18 +82,19 @@ nav ul li a{
 
 /****************FORMULARIO*********************/
 
-.formulario col {
-    background-color: #FFC3A1;
-}
 #formularioContacto{
     width: 350px;
     height: 230px;
     background-color: #F0997D;
     border-radius: 8px;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-bottom: 5vh;
     margin-left: 40%;
     margin-right: 40%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+
+    
 
 }
 
@@ -102,6 +103,15 @@ nav ul li a{
     color: #ffffff;
     margin-bottom: 10px;
 }
+input,textarea{
+
+width: 100%;
+padding: auto;
+box-sizing: border-box;
+border: none;
+
+}
+
 
 #name{
     text-align: center;
@@ -124,10 +134,14 @@ nav ul li a{
 
 }
 
-.submit{
+#submit{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#FFC3A1;
+}
+#submit:hover {
+    cursor: pointer;
 }
 
 /*********presentacion************/
