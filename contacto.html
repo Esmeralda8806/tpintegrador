@@ -7,7 +7,9 @@
     <title>Home</title>
     <!-- enlace con css -->
     <link rel="stylesheet"  type=" text/css" href="css\estilos.css">
-    <!-- enlace con jQuery -->
+    <!-- enlace con Bootstrap -->
+        
+
     
     
 
@@ -34,31 +36,34 @@
                 </ul>
             </nav>
     </header>
-   
-<form id="formularioContacto" action="" method="post">
+
+<div class="formulario col col-xs-12 col-md-6"> 
+    <form id="formularioContacto" action="" method="post">
 
         <h2 class="contacto">Contacto</h2>
 
         <p> 
-            <label for="name">Nombre <span>(requiere de 3 caracteres minimos)</span> </label>
+            <label for="name">Nombre <span></span> </label>
             <input id="name" name="name" minlength="3" type="text" required>
         </p>
 
         <p >
-            <label for="e-mail">E-mail <span>(obligatorio) </span> </label>
+            <label for="e-mail">E-mail <span> </span> </label>
             <input id="e-mail" type="e-mail" name="e-mail" required>
         </p>
 
         <p >
-            <label for="mensaje">mensaje<span>dejanos un mensaje</span></label>
+            <label for="mensaje">mensaje<span></span></label>
 
             <input id="mensaje" name="mensaje" minlength="0" type="text">
         </p>
         <p>
             <input class="submit" type="submit" value="suscribete">
-        </p>
-
+        </p> 
     </form>
+ </div>
+
+   
 
      </header>
 

@@ -75,13 +75,19 @@ nav ul li a{
     height: 40px;
 
 }
+.submit{
+    font-family: inherit;
+    font-size: 100%;}
 
 
 /****************FORMULARIO*********************/
 
+.formulario col {
+    background-color: #FFC3A1;
+}
 #formularioContacto{
     width: 350px;
-    height: 250px;
+    height: 230px;
     background-color: #F0997D;
     border-radius: 8px;
     margin-top: 5vh;
@@ -97,27 +103,28 @@ nav ul li a{
     margin-bottom: 10px;
 }
 
-.nombreform{
+#name{
     text-align: center;
     margin-bottom: 5px;
     border-radius: 5px;
+    
 }
 
-.emailform{
-    text-align: center;
-    margin-bottom: 5px;
-    border-radius: 5px;
-
-}
-
-.mensajeform{
+#e-mail{
     text-align: center;
     margin-bottom: 5px;
     border-radius: 5px;
 
 }
 
-.botonform{
+#mensaje{
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.submit{
     display: flex;
     justify-content: center;
     align-items: center;
