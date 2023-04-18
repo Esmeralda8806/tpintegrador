@@ -7,8 +7,9 @@
     <title>Home</title>
     <!-- enlace con css -->
     <link rel="stylesheet"  type=" text/css" href="css\estilos.css">
+    
     <!-- enlace con Bootstrap -->
-        
+    
 
     
     
@@ -38,43 +39,42 @@
     </header>
 
 
-
-    <form id="formularioContacto" action="" method="post">
+<div class="formulario col col-xs-12 col.md-6">
+    <form id="basic-form" action="" method="post">
 
         <h2 class="contacto">Contacto</h2>
 
         <p> 
-            <label for="name">Nombre <span></span> </label>
+            <label for="name">Nombre <span>(required,at least 3 characters)</span> </label>
             <input id="name" name="name" minlength="3" type="text" required>
         </p>
 
         <p >
-            <label for="e-mail">E-mail <span> </span> </label>
-            <input id="e-mail" type="e-mail" name="e-mail" required>
-        </p>
-
-        <p >
-            
-            <textarea name="mensaje" placeholder="escriba aqui tu mensaje"></textarea>
-        </p>
+            <label for="email">E-mail <span>(requiered) </span> </label>
+            <input id="email" type="email" name="email" required>
+        </p>        
         <p>
-            <input class="submit"id="submit" type="submit" value="suscribete">
-        </p> 
+            <input class="submit" type="submit" value="SUSCRIBETE">
+        </p>
     </form>
- </div>
+</div>
+</div>
 
    
 
      </header>
 
  <footer class="piedepagina">
-        <div class="final" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.00,50.10 C150.00,150.33 349.20,-50.10 499.25,85.93 L500.00,150.33 L-0.00,150.33 Z" style="stroke: none; fill: #A75D5D;"></path></svg></div>
+        
        
-    </footer>
-    <!-- enlace con js -->
-    <script src="scrip.js"></script>
+ </footer>
 
     <!-- enlace con jQuery -->
+    <script src="script.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js%22%3E</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
 </html>
